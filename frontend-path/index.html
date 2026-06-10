@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <meta name="description" content="My first HTML project">
+     <link rel="icon" href="favicons.JPG" sizes="any">
+     <style>
+      h1  { 
+        text-align: center;
+        
+      }
+      
+      h3 { 
+        text-align: center;
+      }
+      
+    table {
+        text-align: center
+
+    }
+
+  
+
+     </style>
+  </head>
+  <body>
+    <header>
+    
+      <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN HTML docs</a>
+    </nav>
+
+
+     <h1>WELCOME TO MY PORTFOLIO </h1> 
+       <hr>
+    </header>
+<main>
+     My name is NTOH NJOUNG DELPHINE<br>
+     I'm 19years old and I am from cameroon<br>
+     I am an undergruate student in software engineering at IUGET
+
+
+    <h2>About </h2>
+    <section id="about">
+     <figure>
+      <img src="my image.JPG" alt="Delphine" width="240" height="240" loading="lazy" decoding="async">
+      <figcaption><p>Photo of me</p></figcaption>
+    </figure>
+
+  <p> I am a student at IUGET and I study software engineering<br>
+      and i pursue an internship program in BAOTECH<br>I am passionate about developing softwares. </p>
+      <p><em>my goal is to become a well skilled developer</em></p>
+      <p>I learn <abbr title="HyperText Markup Language"HTML</abbr></abbr> because <dfn>frontend</dfn> is my path.</p></p>
+       <p>Target date: <time datetime="2026-12-01">December 2026</time>.</p>
+
+      <details>
+      <summary>More about me</summary>
+      <p>Software Engineering student with an interest in software development, <br>
+        technology, and continuous learning. Passionate about creating innovative solutions and growing <br>
+        as a developer through practical experience and collaboration.</p>
+    </details>
+    <p>Course progress: <progress value="65" max="100">65%</progress></p>
+    <p data-module="html-1" title="HTML Module 1 portfolio">Portfolio page</p></p>
+    </details>
+   
+     </section>
+
+    
+    <h2>Skills</h2>
+      <section id="skills">
+    <section id="skill"></section>
+    <a href="CV.pdf" download>download(PDF)</a
+    <ul>
+      <li>. Software designing</li>
+      <li>. problem solving</li>
+      <li>. web development</li>
+      <li>. Analytical Thinking</li>
+      <li>. Team Collaboration</li>
+      <li>. Communication</li>
+      <li>. Time Management</li>
+      <li>. daptabilit</li>
+       <li>. Critical Thinking</li>  
+      <li>. Attention to Detail</li
+      <li>. Continuous Learning </li>   
+    </ul>
+    <h2>Learning plan</h2>
+    <ol>
+      <li>learn HTML module</li>
+      <li>Learn CSS</li>
+      <li>Learn JavaScript</li>
+    </ol>
+    <table>
+      <caption>My study schedule</caption>
+      <colgroup>
+        <col>
+        <col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Day</th>
+          <th scope="col">Focus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Monday</th>
+          <td>HTML practice</td>
+        </tr>
+        <tr>
+          <th scope="row">Tuesday</th>
+          <td>HTML tables</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total</th>
+          <td colspan="1">2 days planned</td>
+        </tr>
+      </tfoot>
+    </table>
+    </tbody>
+</table>
+    </section>
+
+    
+    <h3>Contact</h3>
+    <Fieldset>
+     <legend>Contact info</legend>
+     <section id="contact">
+    <p>contact me via my email 
+      <a href="mailto:you@example.com">delphine6797@icloud.com</a> 
+      <address>
+    <a href="tel:+237600000000">682788146</a></p>
+      
+       </address>
+    </section>
+     
+        <!-- Demo uses GET; production would use method="post" -->
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Contact me</legend>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="80" placeholder="Your full name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="">Choose...</option>
+          <optgroup label="Central Africa">
+            <option value="cm">Cameroon</option>
+          </optgroup>
+          <optgroup label="West Africa">
+            <option value="ng">Nigeria</option>
+          </optgroup>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required minlength="10" placeholder="Your message"></textarea>
+        <output name="reply-hint" for="message">Typical reply: within 24 hours</output>
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button
+         <input type="email" name="email" autocomplete="email">
+          
+        <input type="file" name="gallery" multiple accept="image/*">
+        
+      </fieldset>
+    </form>
+
+
+      <address>
+        </Fieldset>
+      <footer>
+        <p>&copy;" 2026 Ntoh Njoung Delphine"</p>
+        </address>
+      </footer>
+
+  </body>
+</html>
